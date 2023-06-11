@@ -1,0 +1,81 @@
+{
+  "identifier" : "BE10A2D8",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "8167E8DC",
+      "localizations" : [
+        {
+          "description" : "Libro escrito por Dan Brown",
+          "displayName" : "Codigo DaVinci",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.yerycastro.BookStore.codigoDaVinci",
+      "referenceName" : "Codigo Da Vinci",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "0055666C",
+      "localizations" : [
+        {
+          "description" : "Piedra filosofal",
+          "displayName" : "Harry Potter",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.yerycastro.BookStore.harryPotter",
+      "referenceName" : "Harry Potter",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "CB134BC8",
+      "localizations" : [
+
+      ],
+      "name" : "Full Access",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "2.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "6B27DFD3",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.yerycastro.BookStore.fullAccess",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Full Access",
+          "subscriptionGroupID" : "CB134BC8",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
